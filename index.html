@@ -1,84 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Triqui</title>
-  <link rel="stylesheet" href="css/mystile.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  
+    <title>Juega triqui</title>
 </head>
-
 <body>
-<div id="titulo">
-  <img id="imagen" src="img/images.png" alt="">
-  <h1 class="titulo">JUEGA TRIQUI</h1> 
-</div>
+    <div id="titulo">
+        <img id="imagen" src="img/images.png" alt="">
+        <h1 class="tituloInicio">BIENVENIDOS AL JUEGO DE TRIQUI</h1> 
+      </div>
+      <div class="mensaje">
+        <img src="./img/images (1).png" alt="imagenJuego" class="imagenInicio">
+        <p class="instrucciones">En este juego gana la persona que llegue a 5 puntos.
+            Despúes de la primera partida, debe dar click en el botón 
+            nueva partida para la siguiente ronda e inicia la persona que perdió en 
+            la partida anterior; para iniciar haz click en el botón de abajo. Mucha suerte.</p>
 
-<div class="contenedorPrincipal">
-
-<div class="contenedorp1" id="tipoLetra1">
-  <div>
-    <p id="j1">LETRA X</p>
-    <img src="img/play.png " class="imagenJugador" id="cambiarImg1" alt="inicio">
-  </div>
-  <div class="puntaje1">
-    <P class="juego1">PUNTUACIÓN</P>
-    <p class="datosnum" id="puntosj1">0</p>
-  </div>
-</div>
-
-  <div class="container">
-    <div class="juego">
-      <div class="bordes num1"></div>
-      <div class="bordes num2"></div>
-      <div class="bordes num3"></div>
-      <div class="bordes num4"></div>
-      <div class="bordes centro"></div>
-      <div class="bordes num6"></div>
-      <div class="bordes num7"></div>
-      <div class="bordes num8"></div>
-      <div class="bordes num9"></div>
-     </div>
-     <h2 class="notificacion">notificación juego</h2>
-  </div>
-  <div class="contenedorp2" id="tipoLetra2">
-    <div>
-      <p id="j2">LETRA O </p>
-      <img src="img/wait.png" class="imagenJugador" id="cambiarImg2" alt="inicio">
-    </div>
-    <div class="puntaje2" id="PuntajeJ">
-      <P class="juego2">PUNTUACIÓN</P>
-      <p class="datosnum" id="puntosj2">0</p>
-    </div>
-  </div>
-</div>
-
-<!-- AQUI VA EL MODAL PARA LA ANIMACION -->
-
-<div class="animacion"> <!--modal container-->
-  <div class="modalJ modalGanador">
-    <div class="modal-text">
-      <h1 id="ganador" class="mensajeGanador"></h1>
-    </div>
-    <img src="./img/ganador.png" id="pruebaimagen" class="imagenGanador" alt="ganador">
-    <button class="cerrar finJuego" id="cerrarJ" type="button">cerrar</button>
-  </div>
-</div>
-
- <!-- ______________________________________ -->
-
-<div class="piedejuego">
-  <button class="reiniciar">Nueva partida</button>
-  <button class="nuevoJuego">Reiniciar juego</button>
-</div>
-
-<!-- <dialog type="modal">
-  <p>mensaje final</p>
-</dialog> -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  <script src="js/matrices.js"></script>
+            <a href="index.html"><img src="./img/images.png" alt="inicar juego" class="botonInicio"></a>
+      </div>
 </body>
-
 </html>
